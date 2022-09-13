@@ -11,6 +11,7 @@ int main(void)
 	long int li;
 	long long int lli;
 	float f;
+
 	put("Size of a char: " (sizeof $c));
 	put("Size of an int: " (sizeof $i));
 	put("Size of a long int: " (sizeof $li));
