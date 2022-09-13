@@ -12,10 +12,10 @@ int main(void)
 	long long int lli;
 	float f;
 
-	puts("Size of a char: %d", sizeof (c));
-	puts("Size of an int: %d", sizeof (i));
-	puts("Size of a long int: %d", sizeof (li));
-	puts("Size of a long long int: %d", sizeof (lli));
-	puts("Size of a float: %d", sizeof (f));
+	printf("Size of a char: %d", (int)sizeof (c));
+	printf("Size of an int: %d", (int)sizeof (i));
+	printf("Size of a long int: %d", (int)sizeof (li));
+	printf("Size of a long long int: %d", (int)sizeof (lli));
+	printf("Size of a float: %d", (int)sizeof (f));
 	return (0);
 }
