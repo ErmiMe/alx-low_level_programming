@@ -12,10 +12,10 @@ int main(void)
 	long long int lli;
 	float f;
 
-	put("Size of a char: %d", sizeof (c));
-	put("Size of an int: %d", sizeof (i));
-	put("Size of a long int: %d", sizeof (li));
-	put("Size of a long long int: %d", sizeof (lli));
-	put("Size of a float: %d", sizeof (f));
+	puts("Size of a char: %d", sizeof (c));
+	puts("Size of an int: %d", sizeof (i));
+	puts("Size of a long int: %d", sizeof (li));
+	puts("Size of a long long int: %d", sizeof (lli));
+	puts("Size of a float: %d", sizeof (f));
 	return (0);
 }
