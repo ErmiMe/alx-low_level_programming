@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	int i = 92;
+	int i = 'a';
 
-	while (i <= 122)
+	while (i <= 'z')
 	{
 		putchar(i);
 		i++;
