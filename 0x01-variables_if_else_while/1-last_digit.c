@@ -20,7 +20,9 @@ int main(void)
 					 * Initialize last digit variable with %
 					 */
 
-					int lsd = n % 10;
+					int lsd;
+
+					lsd = n % 10;
 
 					if (lsd > 5 && lsd <= 9)
 					{
