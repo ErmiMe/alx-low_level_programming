@@ -12,6 +12,7 @@
 int main(void)
 {
 		int n;
+		int lsd;
 
 			srand(time(0));
 				n = rand() - RAND_MAX / 2;
@@ -19,8 +20,6 @@ int main(void)
 					/*
 					 * Initialize last digit variable with %
 					 */
-
-					int lsd;
 
 					lsd = n % 10;
 
