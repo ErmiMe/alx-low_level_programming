@@ -9,12 +9,13 @@
 int main(void)
 {
 	int i = 92;
-	int str[27];
 
 	while (i <= 122)
 	{
-		putchar(str[i]);
+		putchar(i);
 		i++;
 	}
+	putchar('\n');
+
 	return (0);
 }
