@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * main - prints every letter of the alphabet
+ * main - prints every lowercase lettter except q and e
  * Return: 0
  */
 
@@ -13,8 +13,16 @@ int main(void)
 	while (i <= 'z')
 	{
 		putchar(i);
-		i++;
+		if (i == 'd' || i == 'p')
+		{
+			i = i + 2;
+		}
+		else
+		{
+			i++;
+		}
 	}
+
 	putchar('\n');
 
 	return (0);
