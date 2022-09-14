@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * main - prints every letter of the alphabet
+ * main - prints every letter uppercase then lowercase
  * Return: 0
  */
 
