@@ -2,20 +2,22 @@
 #include <string.h>
 
 /**
- * main - prints every letter of the alphabet
+ * main - prints numeral combination
  * Return: 0
  */
 
 int main(void)
 {
-	int i = 'a';
+	int i = '0';
 
-	while (i <= 'z')
+	while (i < '9')
 	{
 		putchar(i);
+		putchar(',');
+		putchar(' ');
 		i++;
 	}
-	putchar('\n');
+	putchar(i);
 
 	return (0);
 }
