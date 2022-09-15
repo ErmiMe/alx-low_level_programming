@@ -5,6 +5,10 @@
  * Return: 1 or 0
  */
 
+/**
+ * int - c for character to be tested
+ */
+
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
