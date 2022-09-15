@@ -9,15 +9,16 @@ void print_alphabet_x10(void)
 {
 	int counter1 = 1;
 
-	while (counter <= 10)
+	while (counter1 <= 10)
 	{
 		int counter2 = 'a';
 
 		while (counter2 <= 'z')
 		{
-			putchar(i);
+			putchar(counter2);
 			counter2++;
 		}
+		counter1++;
 	}
 
 	putchar('\n');
