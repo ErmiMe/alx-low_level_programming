@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -15,11 +16,11 @@ void print_alphabet_x10(void)
 
 		while (counter2 <= 'z')
 		{
-			_putchar(counter2);
+			putchar(counter2);
 			counter2++;
 		}
 		counter1++;
 	}
 
-	_putchar('\n');
+	putchar('\n');
 }
