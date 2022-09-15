@@ -10,14 +10,20 @@ int main(void)
 {
 	int i = '0';
 
-	while (i < '9')
+	while (i <= '9')
 	{
 		putchar(i);
+		i++;
+
+		if (i > '9')
+		{
+			continue;
+		}
+
 		putchar(',');
 		putchar(' ');
-		i++;
 	}
-	putchar(i);
+	putchar('\n');
 
 	return (0);
 }
