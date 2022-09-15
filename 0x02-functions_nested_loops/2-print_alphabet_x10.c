@@ -15,11 +15,11 @@ void print_alphabet_x10(void)
 
 		while (counter2 <= 'z')
 		{
-			putchar(counter2);
+			_putchar(counter2);
 			counter2++;
 		}
 		counter1++;
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
