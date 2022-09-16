@@ -37,5 +37,28 @@ void jack_bauer(void)
 		hour++;
 	}
 
-	
+	while (hour <= 60)
+	{
+		while (minute < 10)
+		{
+			_putchar(hour);
+			_putchar(':');
+			_putchar('0' + minute);
+			_putchar('\n');
+
+			minute++;
+		}
+
+		while (minute <=60)
+		{
+			_putchar(hour);
+			_putchar(':');
+			_putchar(minute);
+			_putchar('\n');
+
+			minute++;
+		}
+
+		hour ++;
+	}
 }
