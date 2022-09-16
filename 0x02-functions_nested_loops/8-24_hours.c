@@ -2,9 +2,7 @@
 
 /**
  * jack_bauer - prints every minute of the day
- * @hour: hour var
- * @minute: minute var
- * Return: Always 0
+ * Return:no return
  */
 
 void jack_bauer(void)
