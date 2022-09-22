@@ -6,6 +6,7 @@
  *
  * Return: a string
  */
+
 char *cap_string(char *str)
 {
 	int i = 0;
