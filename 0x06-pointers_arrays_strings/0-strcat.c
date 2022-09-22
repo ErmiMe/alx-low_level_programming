@@ -1,18 +1,15 @@
-include "main.h"
+#include "main.h"
 
 /**
+ * _strcat - concatenates two strings
  *
- *  * _strcat - concatenates two strings
+ * @dest: first parameter
  *
- *   * @dest: first parameter
+ * @src: second parameter
  *
- *    * @src: second parameter
+ * Return: a string
  *
- *     *
- *
- *      * Return: a string
- *
- *       */
+ */
 
 char *_strcat(char *dest, char *src)
 {
