@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cap_string - change the first character to capital
+ * cap_string - capitalize the first character
  * @str: string to be changed
  *
  * Return: a string
