@@ -1,17 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <stdio.h>
-
 /**
- *
- *  * void prototypes()
- *
- *   * int prototypes()
- *
- *    * char prototype()
- *
- *     */
-
+ * void prototypes()
+ * int prototypes()
+ * char prototype()
+ */
 int _putchar(char c);
 char *_strncat(char *dest, char *src, int n);
 char *_strncat(char *dest, char *src, int n);
